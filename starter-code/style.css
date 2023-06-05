@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./assets/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0 2% 2% ;
+}
+.navbar img{
+    width: 5%;
+}
+.nav{
+    display: flex;
+    justify-content:start;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+}
+.nav a{
+    margin:5% 15% ;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 2% 2%;
+    white-space: nowrap;
+}
+.num{
+    display: inline-block;
+    
+}
+.content{
+    color: white;
+    margin: 20% 55% 20% 5%;
+}
+.content h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+
+}
+.content h1{
+    text-transform: uppercase;
+    font-size: 7rem;
+}
+.content p{
+    padding: 2% 5% 5% 0;
+}
