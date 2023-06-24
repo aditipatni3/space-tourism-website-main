@@ -11,6 +11,7 @@ body{
 
 .navbar{
     display: flex;
+    width: 100vh;
     justify-content: space-between;
     margin: 2% 0 2% 2% ;
 }
